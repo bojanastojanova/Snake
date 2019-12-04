@@ -24,7 +24,7 @@ WINDOW_HEI = 10
 # defining the movement of the Snake
 # the starting direction of the snake is also given by default (up)
 # the snake has methods move and eat which respectively make it move or increase
-# length by one unit.
+# length by one unit
 class Snake:
     def __init__(self, coordinates = [(0,0),(0,1),(0,2)],dir=(0,1)):   # the starting snake coordinates are always the same
         self.position = coordinates
